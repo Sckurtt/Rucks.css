@@ -9,8 +9,8 @@
 <ul>
   <li>Títulos</li>
   <li>Botões</li>
-  <li>Formulários</li>
-  <li>Divisórias/li>
+  <li>Inputs</li>
+  <li>Divisórias</li>
 </ul>
 
 Versão atual: 0.0.01 - dev
