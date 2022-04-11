@@ -1,0 +1,329 @@
+button{
+    border: none;
+}
+.btn-m-d, .btn-m-e,.btn-m-s,.btn-m-a,.btn-m-b,.btn-m-w{
+    font-size: 0.667em;
+}
+.btn-m-d{ /* Button medium default*/ 
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 8px 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:  rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+    
+}
+.btn-m-e{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 8px 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #eb8787;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-m-s{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 8px 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #23B591;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-m-a{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    
+    padding: 8px 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #FF8C32;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-m-b{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 8px 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1B1A17;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-m-w{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 8px 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    color:  rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+
+.btn-m-d:hover, .btn-m-e:hover, .btn-m-s:hover, .btn-m-a:hover, .btn-m-b:hover, .btn-m-w:hover{
+    transition: 0.3s ease;
+    padding: 8px 25px;
+}
+.btn-m-d:focus, .btn-m-e:focus, .btn-m-s:focus, .btn-m-a:focus, .btn-m-b:focus, .btn-m-w:focus{
+    transition: 0.3s ease;transition: 0.3s ease;
+    opacity: 0.50;
+}
+
+.separete-d{ /*Separete dashed*/
+    position: relative;
+    min-width: 100%;
+    height: 2px;
+    content: " ";
+    margin: 10px 0;
+    margin-top: 5px;
+    border-bottom: 3px dashed rgba(0,0,0,0.1);
+}
+/* --------------------------------------- */
+/* Small buttons */
+.btn-s-d, .btn-s-e,.btn-s-s,.btn-s-a,.btn-s-b,.btn-s-w{
+    font-size: 0.667em;
+}
+.btn-s-d:hover, .btn-s-e:hover,.btn-s-s:hover,.btn-s-a:hover:hover,.btn-s-b:hover,.btn-s-w:hover{
+    transition: 0.3s ease;
+    padding: 4px 20px;
+}
+.btn-s-d:focus, .btn-s-e:focus,.btn-s-s:focus,.btn-s-a:focus,.btn-s-b:focus,.btn-s-w:focus{
+    transition: 0.3s ease;transition: 0.3s ease;
+    opacity: 0.50;
+}
+.btn-s-d{ /* Button medium default*/ 
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 4px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:  rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+    
+}
+.btn-s-e{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 4px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #eb8787;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-s-s{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 4px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #23B591;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-s-a{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 4px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #FF8C32;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-s-b{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 4px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1B1A17;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-s-w{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 4px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    color:  rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+
+
+/* --------------------------------------- */
+/* Large buttons */
+
+
+.btn-l-d, .btn-l-e,.btn-l-s,.btn-l-a,.btn-l-b,.btn-l-w{
+    font-size: 0.667em;
+}
+.btn-l-d:focus, .btn-l-e:focus,.btn-l-s:focus,.btn-l-a:focus,.btn-l-b:focus,.btn-l-w:focus{
+    transition: 0.3s ease;
+    opacity: 0.50;
+}
+.btn-l-d:hover, .btn-l-e:hover,.btn-l-s:hover,.btn-l-a:hover,.btn-l-b:hover,.btn-l-w:hover{
+    transition: 0.3s ease;
+    padding: 10px 60px;
+}
+.btn-l-d{ /* Button medium default*/ 
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 10px 45px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:  rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+    
+}
+.btn-l-e{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 10px 45px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #eb8787;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-l-s{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 10px 45px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #23B591;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-l-a{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 10px 45px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #FF8C32;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-l-b{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    width: auto;
+    padding: 10px 45px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1B1A17;
+    color:  rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+.btn-l-w{ /* Button medium error*/
+    position: relative;
+    margin: 5px 5px;
+    
+    width: auto;
+    padding: 10px 45px;
+    box-sizing: content-box;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    color:  rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* text-transform: uppercase; */
+}
+
+
